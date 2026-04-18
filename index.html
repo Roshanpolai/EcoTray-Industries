@@ -166,34 +166,40 @@
       </section>
 
       <section class="section trust-strip fade-in" id="trust">
-        <div class="container trust-grid">
-          <article class="trust-card">
-            <h3>100% Recyclable Material</h3>
+        <div class="container trust-layout">
+          <div class="trust-image-wrap">
+            <img
+              class="trust-image"
+              src="./images/Trust_img.png"
+              alt="Eggs placed in pulp egg tray"
+              loading="lazy"
+            />
+          </div>
+          <div class="trust-content">
+            <h2>Why Choose Our Egg Trays?</h2>
             <p>
-              Made from recycled paper pulp with chemical-safe production
-              processes.
+              Our trays are made from 100% recyclable materials and produced using
+              eco-friendly methods with no harmful chemicals. We serve poultry farms,
+              wholesalers, and bulk buyers with consistent quality and dispatch support.
             </p>
-          </article>
-          <article class="trust-card">
-            <h3>Bulk Dispatch Capability</h3>
-            <p>
-              Steady output for farms, distributors, and retail packaging
-              partners.
-            </p>
-          </article>
-          <article class="trust-card">
-            <h3>Low Breakage Design</h3>
-            <p>
-              Structured tray geometry to improve egg protection during transit.
-            </p>
-          </article>
-          <article class="trust-card">
-            <h3>Pan-India Supply Focus</h3>
-            <p>
-              Serving buyers across multiple states with fast WhatsApp-first
-              ordering.
-            </p>
-          </article>
+
+            <div class="trust-years">
+              <strong>5+</strong>
+              <span>Years of Experience</span>
+            </div>
+
+            <div class="trust-highlight-cards">
+              <article class="trust-highlight trust-highlight-yellow">
+                <span class="trust-icon"></span>
+                <h3>Use Only 100% Recyclable Materials</h3>
+              </article>
+              <article class="trust-highlight trust-highlight-green">
+                <span class="trust-icon"></span>
+                <h3>Eco-friendly & Completely Free Of Harmful Chemicals</h3>
+              </article>
+            </div>
+
+          </div>
         </div>
       </section>
 
@@ -265,16 +271,24 @@
             <span>RetailPack Co.</span>
           </div>
           <div class="testimonials">
-            <blockquote data-i18n="clients.q1">
-              "Consistent tray quality and on-time bulk deliveries every month."
-            </blockquote>
-            <blockquote data-i18n="clients.q2">
-              "Our breakage rates dropped after switching to their molded
-              trays."
-            </blockquote>
-            <blockquote data-i18n="clients.q3">
-              "Responsive team and smooth WhatsApp ordering process."
-            </blockquote>
+            <article class="testimonial-card">
+              <blockquote data-i18n="clients.q1">
+                "Consistent tray quality and on-time bulk deliveries every month."
+              </blockquote>
+              <p class="testimonial-name">Rakesh Poultry Farms</p>
+            </article>
+            <article class="testimonial-card">
+              <blockquote data-i18n="clients.q2">
+                "Our breakage rates dropped after switching to their molded trays."
+              </blockquote>
+              <p class="testimonial-name">Anita Egg Traders</p>
+            </article>
+            <article class="testimonial-card">
+              <blockquote data-i18n="clients.q3">
+                "Responsive team and smooth WhatsApp ordering process."
+              </blockquote>
+              <p class="testimonial-name">GreenNest Distribution</p>
+            </article>
           </div>
         </div>
       </section>
@@ -350,33 +364,48 @@
       </section>
     </main>
 
-    <!-- Footer -->
     <footer class="site-footer">
       <div class="container footer-grid">
-        <!-- Left -->
-        <div class="footer-left">
+        <div class="footer-about">
           <p class="footer-brand">GreenPulp Egg Trays</p>
           <p class="footer-text">
-            Sustainable molded pulp packaging for modern supply chains.
+            Welcome to GreenPulp Egg Trays. We manufacture eco-friendly, sustainable
+            egg trays made from recycled paper pulp for bulk buyers.
           </p>
+          <form class="footer-subscribe" action="#" method="post">
+            <label class="sr-only" for="footerEmail">Your Email</label>
+            <input id="footerEmail" type="email" placeholder="Your Email" />
+            <button type="submit">GO</button>
+          </form>
         </div>
 
-        <!-- Right -->
-        <div class="social">
-          <a
-            href="https://wa.me/916370731900"
-            target="_blank"
-            aria-label="WhatsApp"
-            >WA</a
-          >
-          <a href="tel:+916370731900" aria-label="Call">PH</a>
-          <a href="mailto:roshanpolai07@gmail.com" aria-label="Email">EM</a>
+        <div class="footer-links-col">
+          <h3>Explore</h3>
+          <ul class="footer-links">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact-col">
+          <h3>Contact Info</h3>
+          <ul class="footer-contact-list">
+            <li><strong>Address:</strong> Kodala, Ganjam, Odisha, India</li>
+            <li><strong>Email:</strong> <a href="mailto:roshanpolai07@gmail.com">roshanpolai07@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+916370731900">+91 6370731900</a></li>
+          </ul>
+          <div class="social">
+            <a href="https://wa.me/916370731900" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+            <a href="tel:+916370731900" aria-label="Call">PH</a>
+            <a href="mailto:roshanpolai07@gmail.com" aria-label="Email">EM</a>
+          </div>
         </div>
       </div>
 
-      <!-- Bottom -->
       <p class="copyright">
-        © <span id="year"></span>EcoTray Industries. All rights reserved.
+        Copyright <span id="year"></span>. All Rights Reserved.
       </p>
     </footer>
 
